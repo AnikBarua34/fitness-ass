@@ -1,12 +1,12 @@
 import React from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGifts } from '@fortawesome/free-solid-svg-icons'
+import { faGifts, faWarehouse } from '@fortawesome/free-solid-svg-icons'
 import Card from 'react-bootstrap/Card';
 
 const Header = () => {
     // icon
-    const element = <FontAwesomeIcon icon={faGifts} />
+    const element = <FontAwesomeIcon icon={faWarehouse} />
     return (
         <div className='header'>
             <h2>{element} Welcome To the Fitness World</h2>

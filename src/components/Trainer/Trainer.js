@@ -1,11 +1,11 @@
 import './Trainer.css';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { faSdCard, faStepForward } from '@fortawesome/free-solid-svg-icons'
 
 const Trainer = (props) => {
     // icon 
-    const element = <FontAwesomeIcon icon={faShoppingCart} />
+    const element = <FontAwesomeIcon icon={faStepForward} />
     // distructuring 
     const { Name, age, country,SpeakersFee, img, Profession } = props.trainer
     return (
@@ -18,7 +18,7 @@ const Trainer = (props) => {
                     <p>Country: {country}</p>
                     <p>Speaker Fee: <span className='fee'> ${SpeakersFee}</span></p>
                     <p>Profession: {Profession}</p>
-                    <button className='addToCartBtn mx-auto' onClick={() => props.handleAddToCart(props.trainer)}> {element}Select This Singer</button>
+                    <button className='addToCartBtn mx-auto' onClick={() => props.handleAddToCart(props.trainer)}> {element}Select This Speaker</button>
                 </Card.Body>
 
             </Card>
