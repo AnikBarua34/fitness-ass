@@ -11,10 +11,9 @@ const Header = () => {
         <div className='header'>
             <h2>{element} Welcome To the Fitness World</h2>
             <h4>If you want about fitness and want to know how to be fit then visit our conference.</h4>
-            <h5>To Represent Our Country in a different method</h5>
             <h5>Here we presenting world best fitness trainer for you.</h5>
             <span><Card.Body></Card.Body></span>
-            <h2>Maximum Total Budget is $ 12,000,00 !!</h2>
+            <h2>Maximum Total Budget is $ 12,000,00!</h2>
 
 
 
