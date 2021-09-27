@@ -18,7 +18,7 @@ const Trainer = (props) => {
                     <p>Country: {country}</p>
                     <p>Speaker Fee: <span className='fee'> ${SpeakersFee}</span></p>
                     <p>Profession: {Profession}</p>
-                    <button className='addToCartBtn mx-auto' onClick={() => props.handleAddToCart(props.tariner)}> {element}Select This Singer</button>
+                    <button className='addToCartBtn mx-auto' onClick={() => props.handleAddToCart(props.trainer)}> {element}Select This Singer</button>
                 </Card.Body>
 
             </Card>

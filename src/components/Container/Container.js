@@ -25,7 +25,7 @@ const Container = () => {
             <div className="trainers-conatiner">
                 {/* key declare and using map */}
                 {
-                    trainers.map(trainer => <Trainer key={trainer.Name} singer={trainer}
+                    trainers.map(trainer => <Trainer key={trainer.Name} trainer={trainer}
                         handleAddToCart={handleAddToCart}
                     ></Trainer>)
                 }
